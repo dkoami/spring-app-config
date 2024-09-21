@@ -5,4 +5,5 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultzone: //enset-service-registry:8761/eureka/
+      defaultZone: http://enset-service-registry:8761/eureka/
+
